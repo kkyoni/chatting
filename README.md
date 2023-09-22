@@ -10,12 +10,10 @@
 - Step 1 : composer update
 - Step 2 : composer dumpa
 - Step 3 : php artisan key:generate
-- Step 4 : php artisan storage:link
-- Step 5 : ./clean-up.sh
-
-## Backend Laravel Project Order Status Crone
-
-* php artisan OrderStatus:cron
+- Step 4 : php artisan migrate
+- Step 5 : php artisan db:seed
+- Step 6 : php artisan storage:link
+- Step 7 : ./clean-up.sh
 
 ## Backend Templete
 
